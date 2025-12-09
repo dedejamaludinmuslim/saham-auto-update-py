@@ -2,10 +2,8 @@ name: Auto Update Stock Prices
 
 on:
   schedule:
-    # GitHub pakai UTC, Jakarta = UTC+7
-    # 08:10 UTC = 15:10 WIB (mendekati penutupan bursa)
     - cron: "10 8 * * 1-5"
-  workflow_dispatch: {}  # supaya bisa dijalankan manual juga
+  workflow_dispatch: {}
 
 jobs:
   run-script:
