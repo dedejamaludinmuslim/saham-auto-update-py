@@ -1,0 +1,4 @@
+python-dotenv
+yfinance
+supabase
+pytz
