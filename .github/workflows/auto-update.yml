@@ -2,7 +2,7 @@ name: Auto Update Stock Prices
 
 on:
   schedule:
-    - cron: '10 8 * * 1-5'
+    - cron: '*/5 * * * *'  # Setiap 5 menit (untuk testing)
   workflow_dispatch:
 
 jobs:
