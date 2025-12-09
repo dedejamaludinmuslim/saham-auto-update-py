@@ -31,3 +31,4 @@ jobs:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
           python auto_update.py
+Add schedule to auto-update workflow
